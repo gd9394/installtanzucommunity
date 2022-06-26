@@ -56,7 +56,8 @@ Install network tools.
 ```
 sudo apt update
 sudo apt install net-tools 
-sudo apt curl
+sudo apt install curl
+sudo apt install openssh-server
 ```
 
 ### 2. Install ```kubectl```
@@ -67,7 +68,8 @@ Install ```kubectl``` binary with curl on Ubuntu.
 #### 2.1 Download the latest release with the command: 
 
 ```
-curl -LO https://dl.k8s.io/release/v1.20.1/bin/linux/amd64/kubectl
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 ```
 
