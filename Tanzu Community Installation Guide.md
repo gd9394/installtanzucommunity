@@ -1,8 +1,8 @@
 # VMware Tanzu Community Installation Cookbook
 
 
-By Leo Cao, Jun 23, 2022
-
+Initial By Leo Cao, Jun 23, 2022
+Updated by ChenXiaotao, Jun 28, 2022
 -----------
 
 ## Environment Preparation
@@ -41,7 +41,7 @@ Install VMware Workstation on Windows Desktop or VMware Fusion on Mac Book.
 
 Deploy one VM with below configuraitons:
 
-Image of Ubuntu 21.04: https://old-releases.ubuntu.com/releases/21.04/ubuntu-21.04-live-server-amd64.iso
+Image of Ubuntu 21.04: https://old-releases.ubuntu.com/releases/21.04/ubuntu-21.04-desktop-amd64.iso
 
  Resources   | Size/Version
  ------------|-------------
