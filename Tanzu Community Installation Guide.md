@@ -209,7 +209,7 @@ $ docker pull kindest/haproxy:v20210715-a6da3463
 
 1. Initialize the Tanzu Community Edition installer interface.
 ```
-tanzu management-cluster create --ui
+tanzu management-cluster create --ui -b 192.168.xx.xx:8080
 ```
 2. Complete the configuration steps in the installer interface for Docker and create the management cluster. The following configuration settings are recommended:
 The Kubernetes Network Settings are auto-filled with a default CNI Provider and Cluster Service CIDR.
